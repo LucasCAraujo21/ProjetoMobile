@@ -1,0 +1,26 @@
+name: movies
+description: A new Flutter project.
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Funcionais e null-safe
+  dartz: ^0.10.1
+
+  # HTTP client moderno e compatível com Flutter 3.x
+  dio: ^5.4.0
+
+  # Biblioteca de internacionalização atual
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
